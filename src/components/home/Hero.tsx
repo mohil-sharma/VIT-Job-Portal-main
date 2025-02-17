@@ -36,35 +36,35 @@ export const Hero = () => {
             />
             <img
               loading="lazy"
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=600"
+              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=600"
               className="aspect-[0.94] object-cover w-full rounded-2xl shadow-lg hover:shadow-xl transition-all"
-              alt="Young professional at tech company"
+              alt="Young professional working on laptop"
             />
             <img
               loading="lazy"
-              src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&q=80&w=600"
+              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=600"
               className="aspect-[1.7] object-cover w-full rounded-2xl shadow-lg hover:shadow-xl transition-all"
-              alt="Modern office environment"
+              alt="Modern technology workspace"
             />
           </div>
           <div className="min-w-60 grow shrink w-64 space-y-4">
             <img
               loading="lazy"
-              src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?auto=format&fit=crop&q=80&w=600"
+              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600"
               className="aspect-[0.94] object-cover w-full rounded-2xl shadow-lg hover:shadow-xl transition-all"
-              alt="Student working on laptop"
+              alt="Professional working on laptop"
             />
             <img
               loading="lazy"
-              src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=600"
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=600"
               className="aspect-[0.94] object-cover w-full rounded-2xl shadow-lg hover:shadow-xl transition-all"
-              alt="Modern startup office space"
+              alt="Team collaboration in modern office"
             />
             <img
               loading="lazy"
-              src="https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&q=80&w=600"
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600"
               className="aspect-[1.7] object-cover w-full rounded-2xl shadow-lg hover:shadow-xl transition-all"
-              alt="Tech company workspace"
+              alt="Coding and development workspace"
             />
           </div>
         </div>
