@@ -19,10 +19,10 @@ export const Hero = () => {
           </div>
           <div className="flex gap-4 text-base font-normal mt-8">
             <button className="bg-purple-700 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-purple-800 transition-all">
-              <a href="http://localhost:5173">Sign Up</a>
+              Sign Up
             </button>
             <button className="bg-white border-2 border-purple-200 px-6 py-3 rounded-lg hover:bg-purple-50 transition-all">
-              <a href="http://localhost:3001">Login</a>
+              Login
             </button>
           </div>
         </div>
@@ -30,41 +30,41 @@ export const Hero = () => {
           <div className="min-w-60 grow shrink w-[255px] space-y-4">
             <img
               loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/bcada03796304c809c52b5008891ae20/2f1670a37c34cfa3237fd7fe0ac6d81cb377628a25eb9c775f6940f96796aa66"
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=600"
               className="aspect-[0.94] object-cover w-full rounded-2xl shadow-lg hover:shadow-xl transition-all"
-              alt="Career opportunities 1"
+              alt="Students collaborating in modern workspace"
             />
             <img
               loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/bcada03796304c809c52b5008891ae20/2f1670a37c34cfa3237fd7fe0ac6d81cb377628a25eb9c775f6940f96796aa66"
+              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=600"
               className="aspect-[0.94] object-cover w-full rounded-2xl shadow-lg hover:shadow-xl transition-all"
-              alt="Career opportunities 2"
+              alt="Young professional at tech company"
             />
             <img
               loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/bcada03796304c809c52b5008891ae20/5fe35715750d23385a3985cf6cdcd14034f9b91ebfe5f30375c317b6e1663e37"
+              src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&q=80&w=600"
               className="aspect-[1.7] object-cover w-full rounded-2xl shadow-lg hover:shadow-xl transition-all"
-              alt="Career opportunities 3"
+              alt="Modern office environment"
             />
           </div>
           <div className="min-w-60 grow shrink w-64 space-y-4">
             <img
               loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/bcada03796304c809c52b5008891ae20/1c116148cfab08933c4a5c2cd443fff7fec680abfafa419e7c4b4f0f81e3a07d"
+              src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?auto=format&fit=crop&q=80&w=600"
               className="aspect-[0.94] object-cover w-full rounded-2xl shadow-lg hover:shadow-xl transition-all"
-              alt="Career opportunities 4"
+              alt="Student working on laptop"
             />
             <img
               loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/bcada03796304c809c52b5008891ae20/1c116148cfab08933c4a5c2cd443fff7fec680abfafa419e7c4b4f0f81e3a07d"
+              src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=600"
               className="aspect-[0.94] object-cover w-full rounded-2xl shadow-lg hover:shadow-xl transition-all"
-              alt="Career opportunities 5"
+              alt="Modern startup office space"
             />
             <img
               loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/bcada03796304c809c52b5008891ae20/dc21f91cd788acbc2feb4b7ad25378fb232041cacdd8cd16487262ef5b8acd1e"
+              src="https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&q=80&w=600"
               className="aspect-[1.7] object-cover w-full rounded-2xl shadow-lg hover:shadow-xl transition-all"
-              alt="Career opportunities 6"
+              alt="Tech company workspace"
             />
           </div>
         </div>
