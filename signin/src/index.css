@@ -7,23 +7,59 @@ html, body, #root {
   width: 100%;
   margin: 0;
   padding: 0;
-  cursor: url('cursor.png') 16 16, auto;
+  cursor: default;
 }
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  cursor: url('cursor.png') 16 16, auto;
   box-sizing: border-box;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+* {
+  cursor: default;
+}
+
+a, button, 
+.clickable, 
+input[type="submit"], 
+input[type="button"], 
+input[type="reset"] {
+  cursor: pointer;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+input[type="number"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="url"], 
+textarea {
+  cursor: text;
+}
+
+/* Custom cursor styles for links and buttons */
+a:hover, 
+button:hover, 
+.clickable:hover {
+  cursor: pointer;
+}
+
+/* Custom cursor for text selection */
+::selection {
+  background-color: rgba(126, 34, 206, 0.2); /* Purple with opacity */
+  color: inherit;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
